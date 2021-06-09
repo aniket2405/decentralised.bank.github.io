@@ -46,7 +46,10 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "truffle-hdwallet-provider": "0.0.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dappuniversity/dbank.git"
