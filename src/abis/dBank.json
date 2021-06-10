@@ -129,7 +129,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -148,7 +149,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -167,7 +169,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -186,7 +189,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -205,14 +209,16 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
       "name": "deposit",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [],
@@ -226,7 +232,8 @@
       "name": "borrow",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     },
     {
       "inputs": [],
@@ -9985,12 +9992,13 @@
         }
       },
       "links": {},
-      "address": "0x2863d3884F7ae30C89E7B54c0792DaA73d9afA22",
-      "transactionHash": "0x53c41e18ffa73a9594f06a12e974af5959d5dbe8b253ba43d58ba7fe76f37e30"
+      "address": "0x2b13011EBd88789bd3b60a95621c0C719D894a03",
+      "transactionHash": "0xde3a674262c438e389e684d914cddefd61876a2042a2e71111e4598167e3635b"
     }
   },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2021-06-09T14:15:13.648Z",
+  "updatedAt": "2021-06-10T09:12:01.519Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
